@@ -1,0 +1,16 @@
+{
+  "dashboard": {
+    "dashboard": "Masa üstü"
+  },
+  "sidebar": {
+    "dashboard": "Masa üstü",
+    "customers": "müştərilər",
+    "products": "praduklar",
+    "statistic": "göstərici"
+  },
+  "modal": {
+    "title": "Rəng parametrləri",
+    "mood": "Tema seç",
+    "color": "Rəng seç"
+  }
+}

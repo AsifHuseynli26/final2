@@ -1,0 +1,91 @@
+:root {
+  --text-color: #455560;
+  --color-blue: #349eff;
+  --color-hover: #349dffa0;
+}
+
+.title {
+  font-size: 38px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 25px;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+.dbIcon {
+  font-size: 32px;
+  color: red;
+}
+.bx-dollar-circle:before {
+  content: "\eaad";
+}
+.bx-shopping-bag:before {
+  content: "\ec0b";
+}
+.bi {
+  font-family: boxicons !important;
+}
+.box {
+  display: flex;
+  align-items: center;
+  /* box-shadow: #63636333 0px 2px 8px 0px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 7px;
+  padding: 15px;
+}
+.boxtext {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  font-size: 2.5rem;
+  color: var(--text-color);
+}
+p {
+  font-size: 1.01rem;
+}
+.boxCont {
+  padding-left: 26px;
+  position: relative;
+}
+.boxhover {
+  position: absolute;
+  z-index: 1000;
+  width: 60%;
+  height: 100%;
+  border-radius: 7px 0px 100% 7px;
+  opacity: 0;
+  cursor: pointer;
+  transform: translateY(-10%);
+}
+.boxhover:hover {
+  opacity: 100;
+  transition: all 0.7s ease;
+  transform: translateY(0%);
+}
+body.dark h1 {
+  color: white;
+}
+body.dark h2 {
+  color: white;
+}
+.cdicon {
+  font-size: 2rem;
+  margin: 0 10px;
+}
+
+.diagram {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 6px;
+  background-color: #f1f1f1;
+  padding-top: 8px;
+}
+body.dark .diagram {
+  background-color: #202020;
+}
+body.dark .box {
+  background-color: #202020;
+}

@@ -1,0 +1,271 @@
+body.dark .universalFiltersClass {
+  background-color: #202020;
+  border-radius: 7px;
+  border: none;
+  border: 1px solid #3d3c3c;
+}
+.universalFiltersClass {
+  border-radius: 7px;
+  border: none;
+  border: 1px solid #c5c5c5;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.refresbtn {
+  width: 70px;
+  height: 44px;
+}
+.deteBtn {
+  width: 70px;
+  height: 46px;
+  background-color: red !important;
+}
+.deteBtn i {
+  font-size: 24px;
+  line-height: 50px;
+  color: white;
+}
+
+.refresbtn i {
+  font-size: 24px;
+  line-height: 50px;
+}
+.dark .refresbtn {
+  background-color: #202020;
+}
+.dark .refresbtn i {
+  color: white;
+}
+.inputconten {
+  width: 80%;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #c5c5c5;
+}
+.inputconten i {
+  font-size: 18px;
+}
+
+.inputconten input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  margin-left: 10px;
+}
+body.dark .inputconten input {
+  background-color: #202020;
+  color: white;
+  font-size: 17px;
+}
+input {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  outline: none;
+}
+
+.columns {
+  padding: 6px;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.columns span {
+  margin-left: 6px;
+}
+
+.addclass {
+  padding: 7px 24px;
+  background-color: #2dce89;
+  border-color: #2dce89;
+  color: white;
+  font-size: 18px;
+}
+
+body.dark .addclass {
+  padding: 8px 24px;
+  background-color: #125035;
+  border-color: #2dce89;
+}
+
+.hiddenFilters {
+  /* transition: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955); */
+}
+.showFilters {
+  /* transition: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+}
+.table {
+  margin-top: 10px;
+  width: 98%;
+  border-radius: 7px;
+}
+body.dark .table td,
+body.dark .table th {
+  padding: 15px 10px;
+  border: 0.8px solid #2d2d2d;
+}
+.table td,
+.table th {
+  padding: 15px 10px;
+  border: 0.8px solid #ffffff;
+  background-color: #f1f1f1;
+}
+.table th {
+  text-transform: capitalize;
+}
+
+body.dark .table td,
+body.dark .table th {
+  background-color: #202020 !important;
+  color: white;
+}
+
+.custom-modal {
+  width: 800px;
+  background-color: #fafafa;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  max-height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 6px;
+  color: #202020;
+}
+body.dark .custom-modal {
+  background-color: #202020;
+}
+.modal-header {
+  padding: 10px 20px;
+}
+.modal-header h3 {
+  font-size: 32px;
+  color: rgb(25, 25, 25);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+body.dark .modal-header h3 {
+  color: whitesmoke;
+}
+.checkboxcontaineractive {
+  display: block;
+  transition: all 1s ease-in-out;
+  position: fixed;
+  background-color: #202020;
+  padding: 0px 12px;
+  top: 190px;
+  right: 256 px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 6px;
+}
+.checkboxcontainer {
+  display: none;
+  transition: all 1s ease-in-out;
+}
+.contactions {
+  justify-content: space-around;
+  align-items: center;
+}
+.contactions i {
+  font-size: 22px;
+  color: rgb(35, 174, 35);
+}
+.contactions input {
+  margin-top: 1px;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+}
+.contpaginations {
+  justify-content: space-between;
+}
+.contpaginations button {
+  height: 40px;
+  width: 80px;
+}
+body.dark .limitbtn {
+  background-color: #202020;
+  color: white;
+}
+.limitbtn {
+  border-radius: 6px;
+  position: relative;
+  border: none;
+}
+.chuselimits {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+}
+.chuselimits i {
+  font-size: 18px;
+}
+.chuselimits p {
+  font-size: 18px;
+  padding-top: 12px;
+}
+.activelimit {
+  display: block;
+  position: absolute;
+  bottom: 38px;
+  width: 80px;
+  background-color: #f1f1f1;
+}
+body.dark .activelimit {
+  background-color: #202020;
+}
+.inactivelimit {
+  display: none;
+}
+
+body.dark.activelimit h5 {
+  border-bottom: 0.1px solid #2d2d2d;
+  margin-bottom: 1px;
+  padding: 4px 0px;
+}
+.activelimit h5 {
+  border-bottom: 0.1px solid #524f4f;
+  margin-bottom: 1px;
+  padding: 4px 0px;
+}
+
+body.dark .pagination li a {
+  background-color: #202020 !important;
+  border: none;
+  color: white;
+}
+
+.pagination li a {
+  border: none;
+  color: rgb(35, 35, 35);
+}
+input:active {
+  border: none;
+}
+
+.colmn-data {
+  display: flex;
+  text-transform: capitalize;
+  justify-content: space-between;
+}
+.colmn-data input {
+  margin-left: 10px;
+  width: 18px;
+}
+body.dark .skeleteonLoad {
+  background-color: #202020;
+}
+/* .modalbg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #807e7e6a;
+} */

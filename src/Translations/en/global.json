@@ -1,0 +1,16 @@
+{
+    "dashboard": {
+      "dashboard": "Dashboard"
+    },
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "customers": "Customers",
+      "products": "Products",
+      "statistic": "Statistic"
+    },
+    "modal": {
+      "title": "Theme settings",
+      "mood": "Choose mood",
+      "color": "Choose color"
+    }
+  }

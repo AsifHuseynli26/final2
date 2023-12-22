@@ -1,0 +1,18 @@
+[
+  {
+    "icon": "bi bi-person-circle",
+    "content": "Profile"
+  },
+  {
+    "icon": "bi bi-wallet2",
+    "content": "My Wallet"
+  },
+  {
+    "icon": "bi bi-gear",
+    "content": "Settings"
+  },
+  {
+    "icon": "bi bi-box-arrow-left",
+    "content": "Logout"
+  }
+]

@@ -1,0 +1,275 @@
+:root {
+  --color-blue: #268ceca4;
+  --color-bg: #349dff8f;
+  --color-bg-red: #ff040032;
+  --color-red: #ff0101b0;
+  --text-color: #455560;
+  --txt-white: #fff;
+
+  --main-color-blue: #349eff;
+  --second-color-blue: #62b4ff;
+
+  --main-color-red: #fb0b12;
+  --second-color-red: #ff4a6b;
+
+  --main-color-cyan: #10d4d2;
+  --second-color-cyan: #2ae9e6;
+
+  --main-color-green: #019707;
+  --second-color-green: #4caf50;
+
+  --main-color-orange: #d68102;
+  --second-color-orange: #fca11a;
+}
+
+.nav {
+  height: 9rem;
+  padding: 40px 20px;
+}
+
+.contimg img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  /* border: 3px solid; */
+  padding: 1px;
+}
+.navProfil {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.navProfil p {
+  font-size: 26px;
+  margin-left: 10px;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.navbaricon {
+  font-size: 29px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+/* .bi-bell::after {
+  content: "12";
+  position: absolute;
+  width: 22px;
+  height: 25px;
+  right: 97px;
+  top: 42px;
+  margin: 1px;
+  background-color: var(--color-blue);
+  color: white;
+  border-radius: 50%;
+  font-size: 16px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+} */
+
+.bi-bell span {
+  align-items: center;
+  top: 47px;
+  right: 95px;
+  width: 24px;
+  height: 26px;
+  border-radius: 50%;
+  color: var(--txt-white);
+  display: flex;
+  font-size: 14px;
+  font-weight: 700;
+  justify-content: center;
+  padding: 5px;
+  position: absolute;
+
+  
+}
+
+.palette {
+  background-color: #f1f1f1;
+  position: fixed;
+  z-index: 10101010 ;
+  height: 100vh;
+  transform: translateX(100%);
+  right: 0;
+  top: 0;
+  bottom: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in;
+}
+.show {
+  visibility: inherit;
+  transform: translateX(0);
+  width: 286px;
+  transition: all 0.4s ease-in;
+}
+.palettehed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.palettehed h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.palettehed i {
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.changemood {
+  display: flex;
+  border-radius: 6px;
+  align-items: center;
+  height: 48px;
+  cursor: pointer;
+}
+.moodColor {
+  margin-left: 10px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.textmood {
+  color: var(--text-color);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.painttext {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  margin-left: 10px;
+}
+.color_item {
+  display: flex;
+  border-radius: 6px;
+  align-items: center;
+  height: 48px;
+  color: var(--text-color);
+  cursor: pointer;
+}
+/* .selected_mood {
+  background-color: var(--second-color);
+  color: var(--txt-white);
+} */
+.selected_color{
+  background-color: var(--second-color);
+  color: var(--txt-white);
+}
+
+/* .changemood:hover {
+  background-color: var(--color-blue);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+} */
+
+/* ///////////// */
+.blue-color {
+  background-color: var(--main-color-blue);
+  color: #fff;
+}
+
+.red-color {
+  background-color: var(--main-color-red);
+  color: #fff;
+}
+
+.cyan-color {
+  background-color: var(--main-color-cyan);
+  color: #fff;
+}
+
+.green-color {
+  background-color: var(--main-color-green);
+  color: #fff;
+}
+
+.orange-color {
+  background-color: var(--main-color-orange);
+  color: #fff;
+}
+
+/* .theme-color-blue {
+  --main-color: var(--main-color-blue);
+  --second-color: var(--second-color-blue);
+}
+
+.theme-color-red {
+  --main-color: var(--main-color-red);
+  --second-color: var(--second-color-red);
+}
+
+.theme-color-cyan {
+  --main-color: var(--main-color-cyan);
+  --second-color: var(--second-color-cyan);
+}
+
+.theme-color-green {
+  --main-color: var(--main-color-green);
+  --second-color: var(--second-color-green);
+}
+
+.theme-color-orange {
+  --main-color: var(--main-color-orange);
+  --second-color: var(--second-color-orange);
+} */
+
+/* //////////////// */
+
+.bluehover:hover {
+  background-color: rgba(24, 85, 206, 0.644);
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.redhover:hover {
+  background-color: var(--color-red);
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+.cyanhover:hover {
+  background-color: rgba(8, 148, 150, 0.415);
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+.greenhover:hover {
+  background-color: rgba(31, 193, 63, 0.574);
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+.orangehover:hover {
+  background-color: rgba(166, 104, 16, 0.781);
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+.darkmodal {
+  background-color: #202020;
+}
+.darkmodal div {
+  color: white;
+}
+
+.contlang i {
+  font-size: 20px;
+}
+.open {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    -webkit-transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: block;
+}
+.close {
+  display: none;
+  transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+}

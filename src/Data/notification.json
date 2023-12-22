@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "bi bi-x-octagon",
+    "content": "Curabitur id eros quis nunc suscipit blandit"
+  },
+  {
+    "icon": "bi bi-box-seam",
+    "content": "Duis malesuada justo eu sapien elementum, in semper diam posuere"
+  },
+  {
+    "icon": "bi bi-cart2",
+    "content": "Donec at nisi sit amet tortor commodo porttitor pretium a erat"
+  },
+  {
+    "icon": "bi bi-x-octagon",
+    "content": "In gravida mauris et nisi"
+  },
+  {
+    "icon": "bi bi-cart2",
+    "content": "Curabitur id eros quis nunc suscipit blandit"
+  }
+]
